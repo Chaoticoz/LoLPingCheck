@@ -37,10 +37,6 @@ namespace LoLPingCheck
             "104.160.142.3"
           },
           {
-            "OCE",
-            "104.160.156.1"
-          },
-          {
             "LAN",
             "104.160.136.3"
           },
@@ -58,7 +54,6 @@ namespace LoLPingCheck
             comboBox1.Items.Add("EUW");
             comboBox1.Items.Add("EUNE");
             comboBox1.Items.Add("NA");
-            comboBox1.Items.Add("OCE");
             comboBox1.Items.Add("Garena");
             comboBox1.Items.Add("LAN");
             comboBox1.Items.Add("BR");
