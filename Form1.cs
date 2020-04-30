@@ -125,11 +125,7 @@ namespace LoLPingCheck
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            e.Link.LinkData = (object)"http://www.mpgh.net/";
-            string fileName = e.Link.LinkData == null ? this.linkLabel1.Text.Substring(e.Link.Start, e.Link.Length) : e.Link.LinkData.ToString();
-            if (!fileName.Contains("://"))
-                fileName = "http://" + fileName;
-            Process.Start(new ProcessStartInfo(fileName));
+            Process.Start(new ProcessStartInfo("https://www.mpgh.net/forum/member.php?u=670645"));
             this.linkLabel1.LinkVisited = true;
         }
     }
